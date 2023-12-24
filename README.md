@@ -2,7 +2,7 @@
 Simple program to copy in youtube URL and start youtube-dl command to download songs to that folder in an mp3 format.
 
 ## How to run
-If you are on a windows device, you can simply download the program that is listed in the dist/windows folder. This is an exe that can run on your machine  
+If you are on a windows device, you can simply download the program that is listed in the current Release. This is an exe that can run on your machine  
 ### Prerqeuisites to run
 Download the following programs:
 1) FFMPEG: https://ffmpeg.org/
@@ -26,3 +26,7 @@ The program will download the song files into the same directory that your progr
 1) pyinstaller -> `pip install pyinstaller`
 2) PySimpleGUI -> https://www.pysimplegui.org/en/latest/#install
 3) May need to install tkinter -> `pip install tk`
+
+Note that if you are running this on ubuntu, I had some trouble with tkinter dependencies that got fixed by this:
+https://www.pythonguis.com/installation/install-tkinter-linux/
+I found that installing on windows was easier, but both should work fine
