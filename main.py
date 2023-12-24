@@ -16,8 +16,6 @@ while True:
         break;
     elif event == FETCH_SONG:
         currentUrl = values['urlInput'];
-        if currentUrl == '':
-            continue;
         runYoutubeDl(currentUrl);
 
 window.close();
