@@ -16,3 +16,13 @@ Note that FFMPEG also needs to be globally available, but the instructions on th
 
 ## Where to store the ytToMP3.exe file
 The program will download the song files into the same directory that your program is in. So I would recommend placing the program wherever you will store your songs.
+
+## How to install yourself 
+1) Run `pip install pyinstaller`
+2) cd one step outside of repository
+3) Run the following `pyinstaller -F ./ytToMp3PythonUI/main.py`
+4) The resulting exe will be inside of the dist folder generated
+### Dependencies
+1) pyinstaller -> `pip install pyinstaller`
+2) PySimpleGUI -> https://www.pysimplegui.org/en/latest/#install
+3) May need to install tkinter -> `pip install tk`
